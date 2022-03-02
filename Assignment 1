@@ -1,0 +1,29 @@
+A=[]
+m=int(input())
+n=int(input())
+for i in range(n):
+     row=[]
+     for j in range(n):
+          k=int(input())
+          row.append(k)
+      A.append(row)
+print(A)
+B=[]
+m=int(input())
+n=int(input())
+for i in range (n):
+      row=[]
+       k=int(input))
+       row.append(k)
+       B.append(row)
+Print(B)
+C=[[0,0],[0,0]]
+for i in range(len(A)):
+    for j in range(len(0)):
+         for k in range(len(B)):
+              C[i][j]=c[i][j]+A[i][k]*B[k][j]
+Print("resultant matrix:")
+for i in range(n):
+     for j in range (n):
+         Print (c[i][j],end=' ')
+     Print()
